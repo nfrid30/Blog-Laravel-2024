@@ -113,4 +113,5 @@ class PostController extends Controller implements HasMiddleware
         $post->delete();
         return to_route('posts.index');
     }
+    //dsadas
 }
